@@ -1,4 +1,4 @@
-import style from './movieCard.module.css'
+import style from '../css/movieCard.module.css'
 
 export function MovieCard({movie}) {
     const img_url = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
